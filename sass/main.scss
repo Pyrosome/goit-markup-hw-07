@@ -1,8 +1,5 @@
 @import "./utils/variables";
 
-@import "./layout/header";
-@import "./layout/footer";
-
 @import "./base/commons";
 @import "./base/section";
 @import "./base/container";
@@ -10,6 +7,8 @@
 @import "./components/headline";
 @import "./components/flex-list";
 
+@import "./layout/header";
+@import "./layout/footer";
 @import "./layout/order";
 @import "./layout/features";
 @import "./layout/services";
