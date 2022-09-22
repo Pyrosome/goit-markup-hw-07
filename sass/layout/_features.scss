@@ -44,9 +44,7 @@
 }
 
 .features-icon-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %aling;
 
     height: 120px;
     margin-bottom: 30px;
