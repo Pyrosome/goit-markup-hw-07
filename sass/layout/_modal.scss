@@ -170,9 +170,7 @@ textarea {
     height: 18px;
     margin: 12px 11px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
 }
 
 .modal-checkbox-text {
@@ -201,9 +199,7 @@ textarea {
     width: 423px;
     height: 24px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %aling;
 }
 
 .modal-checkbox-input {

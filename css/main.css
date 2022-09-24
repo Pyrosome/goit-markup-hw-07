@@ -5,7 +5,7 @@
   --secondary-font: "Raleway", sans-serif;
 }
 
-.social-list-link, .features-icon-box, .subscription-button, .join-us-list-link {
+.modal-checkbox-label, .modal-span, .clients-list-link, .clients-list, .social-list-link, .photo-overlay, .features-icon-box, .subscription-button, .join-us-list-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -464,9 +464,6 @@ address {
 
 .photo-overlay {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 370px;
   height: 70px;
   bottom: 0;
@@ -560,16 +557,10 @@ address {
 
 /* ========= svg icons in clients ========= */
 .clients-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   column-gap: 30px;
 }
 
 .clients-list-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 170px;
   height: 92px;
@@ -834,9 +825,6 @@ textarea:focus {
   width: 18px;
   height: 18px;
   margin: 12px 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .modal-checkbox-text {
@@ -861,9 +849,6 @@ textarea:focus {
   margin-bottom: 30px;
   width: 423px;
   height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .modal-checkbox-input {

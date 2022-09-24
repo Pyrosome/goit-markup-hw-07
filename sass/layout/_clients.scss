@@ -1,16 +1,12 @@
 /* ========= svg icons in clients ========= */
 
 .clients-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %aling;
     column-gap: 30px;
 }
 
 .clients-list-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %aling;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
